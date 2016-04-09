@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Test", "MongoDB.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Repository", "MongoDB.Repository\MongoDB.Repository.csproj", "{C5653730-98F9-47BE-9465-5ABB4AE5E9AA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dapper", "Dapper", "{FD1164F2-473D-4F14-9F8A-526DD9938C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Test", "Dapper.Test\Dapper.Test.csproj", "{7B75106F-B316-443B-ABF6-28A2A3F63576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Repository", "Dapper.Repository\Dapper.Repository.csproj", "{5431D7C4-7273-4565-A222-6FD4020C2825}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{C5653730-98F9-47BE-9465-5ABB4AE5E9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5653730-98F9-47BE-9465-5ABB4AE5E9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5653730-98F9-47BE-9465-5ABB4AE5E9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B75106F-B316-443B-ABF6-28A2A3F63576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B75106F-B316-443B-ABF6-28A2A3F63576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B75106F-B316-443B-ABF6-28A2A3F63576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B75106F-B316-443B-ABF6-28A2A3F63576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5431D7C4-7273-4565-A222-6FD4020C2825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5431D7C4-7273-4565-A222-6FD4020C2825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5431D7C4-7273-4565-A222-6FD4020C2825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5431D7C4-7273-4565-A222-6FD4020C2825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EA544812-A7FF-471B-9596-1D4E3E049331} = {913B39B4-F809-4BBA-9A05-ED5AAADC4A33}
 		{C5653730-98F9-47BE-9465-5ABB4AE5E9AA} = {913B39B4-F809-4BBA-9A05-ED5AAADC4A33}
+		{7B75106F-B316-443B-ABF6-28A2A3F63576} = {FD1164F2-473D-4F14-9F8A-526DD9938C31}
+		{5431D7C4-7273-4565-A222-6FD4020C2825} = {FD1164F2-473D-4F14-9F8A-526DD9938C31}
 	EndGlobalSection
 EndGlobal
