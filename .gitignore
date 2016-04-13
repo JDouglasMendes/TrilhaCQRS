@@ -1,2 +1,6 @@
 *.dll
 *.pdb
+*.txt
+*.cache
+*.xdt
+*.nupkg
